@@ -6,7 +6,7 @@
   "scripts": {
     "init": "sequelize db:create",
     "test": "NODE_ENV=test jest",
-    "start": "NODE-ENV=production node index.js",
+    "start": "NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js"
   },
   "repository": {
