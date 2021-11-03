@@ -13,4 +13,4 @@
 
 **Heroku** https://api-server4.herokuapp.com/ 
 
-**Pull Request** https://github.com/MunesYasin/basic-api-server/pull/1
+**Pull Request** https://github.com/MunesYasin/api-server/pull/1
