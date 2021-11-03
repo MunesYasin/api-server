@@ -1,0 +1,36 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "sequelize db:create",
+    "test": "NODE_ENV=test jest",
+    "start": "NODE-ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MunesYasin/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MunesYasin/api-server/issues"
+  },
+  "homepage": "https://github.com/MunesYasin/api-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
